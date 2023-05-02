@@ -1,0 +1,48 @@
+.start-test_head_title {
+  color: $ligth-color;
+  margin: auto;
+  padding: 20px;
+  font-family: Verdana, Tahoma, sans-serif;
+  text-align: center;
+}
+.start-test {
+  border: 1px solid $ligth-color;
+  color: $ligth-color;
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: $card-bg-color;
+  margin: auto;
+}
+.start-test_title {
+  color: $ligth-color;
+  font-family: Verdana, Tahoma, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+.start-test_answer {
+  background-color: hsl(219, 25%, 32%);
+  border: 1px solid $ligth-color;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: start;
+}
+.start-test_list {
+  list-style-type: none;
+}
+.start-test_choice {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 20px;
+  margin-left: 10px;
+}
+input[type="radio"] {
+  appearance: none;
+  background-color: $card-bg-color;
+  font: inherit;
+  color: currentColor;
+  width: 15px;
+  height: 15px;
+  border: 0.15em solid currentColor;
+  border-radius: 50%;
+}

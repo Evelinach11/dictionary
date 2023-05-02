@@ -1,0 +1,32 @@
+.add-word {
+  border: 1px solid $ligth-color;
+  color: $ligth-color;
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: $card-bg-color;
+  margin: auto;
+  margin-top: 20px;
+}
+.add-word_title {
+  color: $ligth-color;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+.add-word_input {
+  margin-top: 20px;
+  margin-right: 20px;
+  border: none;
+  background: $ligth-color;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-word_btn {
+  background-color: $ligth-color;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+  color: $header-bg-color;
+}

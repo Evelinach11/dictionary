@@ -1,0 +1,46 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.home-table {
+  border: 1px solid $ligth-color;
+  color: $ligth-color;
+  padding: 20px;
+  width: 500px;
+  border-radius: 10px;
+  background-color: $card-bg-color;
+}
+
+.home-title {
+  text-align: center;
+  color: $ligth-color;
+  padding: 20px 0 20px 0;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+.home-table_header {
+  font-size: 30px;
+  text-align: left;
+}
+.home-btn {
+  background-color: $header-bg-color;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+  color: $ligth-color;
+}
+
+.home-word {
+  padding: 10px;
+  border: 1px solid $main-bg-color;
+  font-family: Verdana, Tahoma, sans-serif;
+  border-radius: 5px;
+}
+
+.home-item {
+  font-family: Verdana, Tahoma, sans-serif;
+  padding-bottom: 20px;
+}

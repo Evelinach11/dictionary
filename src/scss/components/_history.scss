@@ -1,0 +1,38 @@
+.history {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.history-title {
+  text-align: center;
+  color: $ligth-color;
+  padding: 20px;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+.history-table {
+  border: 1px solid $ligth-color;
+  margin: auto;
+  color: $ligth-color;
+  padding: 20px;
+  width: 500px;
+  border-radius: 10px;
+  background-color: $card-bg-color;
+}
+.history-table_header {
+  font-size: 30px;
+  text-align: left;
+}
+.history-item {
+  font-family: Verdana, Tahoma, sans-serif;
+  padding-bottom: 20px;
+}
+.history-data {
+  padding: 10px;
+  border: 1px solid $main-bg-color;
+  font-family: Verdana, Tahoma, sans-serif;
+  border-radius: 5px;
+}
+
+.history-circle {
+  margin: auto;
+}
